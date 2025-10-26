@@ -32,3 +32,9 @@ main{
 @keyframes blink{
     50%{border-color: transparent}
 }
+.aboutme{
+    font-family:"Ubuntu", sans-serif;
+    font-size: 30px;
+    color:#2A7B9B;
+    font-weight:bold;
+}
