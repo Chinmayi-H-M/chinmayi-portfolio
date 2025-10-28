@@ -1,6 +1,7 @@
 body {
 padding-top: 70px;
-background-color:linear-gradient(#57C785,#2A7B9B);
+background: #3F5EFB;
+background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
 }
 main{
     padding:10px;
@@ -31,4 +32,38 @@ main{
 } 
 @keyframes blink{
     50%{border-color: transparent}
+}
+.skill-list{
+    text-align:center;
+    padding:60px 20px;
+}
+.skill-container{
+    display:flex;
+    justify-self:center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.skill-box{
+    width:150px;
+    height:150px;
+    border-radius:20px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size:1.2rem;
+    font-weight:600;
+    color:white;
+    animation: float 3s east-in-out infinite;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    transition:transform 0.3s ease, box-shadow 0.3s ease;
+}
+.skill-box:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.html{
+    background:#e34c26;
+}
+.css{
+    background:#264de4;
 }
