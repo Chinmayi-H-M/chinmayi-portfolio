@@ -67,3 +67,9 @@ main{
 .css{
     background:#264de4;
 }
+.aboutme{
+    font-family:"Ubuntu", sans-serif;
+    font-size: 30px;
+    color:#2A7B9B;
+    font-weight:bold;
+}
