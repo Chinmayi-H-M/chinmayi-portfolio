@@ -1,6 +1,7 @@
 body {
 padding-top: 70px;
-background-color:linear-gradient(#57C785,#2A7B9B);
+background: #3F5EFB;
+background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
 }
 main{
     padding:10px;
@@ -38,9 +39,9 @@ main{
     color:#2A7B9B;
     font-weight:bold;
 }
-.skills-list{
+.skill-list{
     text-align:center;
-    padding:60px 20px;
+    padding:60px 20px  0px 20px;
     font-size:30px;
 }
 .skills-container{
@@ -63,11 +64,17 @@ main{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .skill-box:hover{
-    transform: scale(1.1);
+    transform: scale(1);
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 @keyframes float{
     0% {transform: translateY(0px);}
     50% {transform: translateY(-10px);}
     100% {transform: translateY(0px);}
+}
+.container{
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:20px;
 }
