@@ -120,3 +120,14 @@ main{
 .project-card a:hover{
     background:#0056b3;
 }
+.navbar-brand{
+    padding-left:20px;
+}
+.project-description{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    gap:50px;
+}
