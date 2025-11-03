@@ -101,7 +101,8 @@ main{
 }
 .project-card h3{
     margin:10px 0;
-    color:#333;
+    color:brown;
+    font-size:25px;
 }
 .project-card p{
     color:#666;
