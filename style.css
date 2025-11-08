@@ -177,5 +177,43 @@ main{
     flex-direction:row;
     flex-wrap:wrap;
     justify-content:center;
-    gap:20px;
+    gap:25px;
+}
+.cert{
+    width:300px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    border-radius:15px;
+    padding:25px 20px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    background:-moz-radial-gradient();
+}
+.cert:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.cert h3{
+    font-size:15px;
+    color:#222;
+    margin-bottom:10px;
+}
+.cert p{
+    font-size:0.95rem;
+    color:#666;
+    margin-bottom:15px;
+    line-height:1.4;
+}
+.cert-btn{
+    display:inline-block;
+    background-color:#007bff;
+    color:#fff;
+    padding:8px 15px;
+    border-radius:8px;
+    font-size:0.9rem;
+    text-decoration:none;
+    transition: background 0.3s;
+
+}
+.cert-btn:hover{
+    background-color:#0056b3;
 }
