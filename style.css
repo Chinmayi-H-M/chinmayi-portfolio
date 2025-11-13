@@ -133,6 +133,9 @@ main{
     flex-direction: column;
     gap:50px;
 }
+.name{
+    padding:10px;
+}
 #contactme{
     text-align:center;
     padding:30px;
