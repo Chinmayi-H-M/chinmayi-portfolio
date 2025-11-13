@@ -16,7 +16,7 @@ main{
 }
 .typing{
     color: #2600ff;
-    font-size: 20px;
+    font-size: 15px;
     border-right:3px solid black;
     white-space: nowwrap;
     overflow: hidden;
@@ -100,9 +100,10 @@ main{
     margin-bottom:15px;
 }
 .project-card h3{
-    margin:10px 0;
-    color:brown;
+    color:blueviolet;
     font-size:25px;
+    font-family:"Ubuntu", sans-serif;
+    font-weight:bold;
 }
 .project-card p{
     color:#666;
