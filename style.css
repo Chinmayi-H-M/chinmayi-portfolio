@@ -261,4 +261,23 @@ main{
         text-align: center;
     }
 }
+@media (min-width: 577px) and (max-width: 992px){
 
+    .project-card,
+    .cert{
+        width: 45%;
+    }
+
+    .skill-box{
+        width: 140px;
+        height: 140px;
+    }
+}
+
+@media (min-width: 993px){
+
+    .project-card,
+    .cert{
+        width: 300px;
+    }
+}
