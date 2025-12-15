@@ -221,3 +221,44 @@ main{
 .cert-btn:hover{
     background-color:#0056b3;
 }
+.project-description{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+@media (max-width: 576px){
+
+    .project-card,
+    .cert{
+        width: 90%;
+    }
+
+    .skill-box{
+        width: 120px;
+        height: 120px;
+        font-size: 1rem;
+    }
+
+    .contact-design{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .image-mine{
+        width: 180px;
+        height: 180px;
+    }
+
+    .my-pic{
+        text-align: center;
+    }
+
+    .aboutme,
+    .intro{
+        text-align: center;
+    }
+}
+
