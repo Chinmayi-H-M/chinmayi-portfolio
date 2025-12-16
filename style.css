@@ -125,14 +125,7 @@ main{
 .navbar-brand{
     padding-left:20px;
 }
-.project-description{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    align-items: center;
-    flex-direction: column;
-    gap:50px;
-}
+
 .name{
     padding:10px;
 }
