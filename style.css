@@ -94,11 +94,7 @@ main{
     transform: translateY(-10px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
-.project-card img{
-    width:100%;
-    border-radius:10px;
-    margin-bottom:15px;
-}
+
 .project-card h3{
     color:blueviolet;
     font-size:25px;
@@ -125,7 +121,12 @@ main{
 .navbar-brand{
     padding-left:20px;
 }
-
+.project-description{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
 .name{
     padding:10px;
 }
