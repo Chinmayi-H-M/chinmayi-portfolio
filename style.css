@@ -15,8 +15,8 @@ main{
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 .typing{
-    color: #2600ff;
-    font-size: 15px;
+    color:beige;
+    font-size: 18px;
     border-right:3px solid black;
     white-space: nowwrap;
     overflow: hidden;
@@ -284,3 +284,4 @@ main{
         width: 300px;
     }
 }
+
