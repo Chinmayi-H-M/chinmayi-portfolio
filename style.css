@@ -136,6 +136,8 @@ main{
 }
 .name{
     padding:10px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:500;
 }
 #contactme{
     text-align:center;
