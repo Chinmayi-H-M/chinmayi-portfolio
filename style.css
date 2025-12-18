@@ -79,6 +79,7 @@ main{
 .projects-2{
     text-align:center;
     padding:40px 20px;
+    font-family:"Ubuntu", sans-serif;
 }
 .project-container{
     display:flex;
@@ -287,5 +288,8 @@ main{
     .cert{
         width: 300px;
     }
+}
+.aandc{
+    font-family:"Ubuntu", sans-serif;
 }
 
