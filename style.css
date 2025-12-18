@@ -40,6 +40,10 @@ main{
     font-weight:bold;
 }
 .skill-list{
+    font-family:"Ubuntu", sans-serif;
+    font-size: 30px;
+    color:#2A7B9B;
+    font-weight:bold;
     text-align:center;
     padding:60px 20px  0px 20px;
     font-size:30px;
