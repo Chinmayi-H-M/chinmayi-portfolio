@@ -1,0 +1,362 @@
+/* ===============================
+   THEME VARIABLES
+================================ */
+:root {
+    /* Light Theme */
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --heading-color: #2A7B9B;
+    --card-bg: #ffffff;
+    --para-color: #666;
+    --icon-color: #333;
+}
+
+body.dark {
+    /* Dark Theme */
+    --bg-color: #0f172a;
+    --text-color: #e5e7eb;
+    --heading-color: #38bdf8;
+    --card-bg: #1e293b;
+    --para-color: #cbd5f5;
+    --icon-color: #e5e7eb;
+}
+
+/* ===============================
+   GLOBAL
+================================ */
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding:70px;
+}
+
+main{
+    padding:10px;
+}
+
+/* ===============================
+   PROFILE IMAGE
+================================ */
+.image-mine{
+    border-radius:50%;
+    width:250px;
+    height:250px;
+    object-fit:cover;
+    border:3px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* ===============================
+   TYPING EFFECT
+================================ */
+.typing{
+    color: var(--text-color);
+    font-size: 18px;
+    border-right:3px solid var(--text-color);
+    white-space: nowrap;
+    overflow: hidden;
+    width:0;
+    animation: typing 3s steps(15) 1s forwards, blink 0.7s step-end infinite;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+@keyframes typing{
+    from{width:0;}
+    to{width:35ch;}
+} 
+
+@keyframes blink{
+    50%{border-color: transparent}
+}
+
+/* ===============================
+   HEADINGS
+================================ */
+.aboutme,
+.skill-list{
+    font-family:"Ubuntu", sans-serif;
+    font-size:30px;
+    color: var(--heading-color);
+    font-weight:bold;
+    text-align:center;
+}
+
+.skill-list{
+    padding:60px 20px 0px 20px;
+}
+
+/* ===============================
+   SKILLS
+================================ */
+.skills-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.skill-box{
+    width:150px;
+    height:150px;
+    border-radius:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:1.2rem;
+    font-weight:600;
+    color:white;
+    animation:float 3s ease-in-out infinite;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-box:hover{
+    transform: scale(1);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+@keyframes float{
+    0% {transform: translateY(0px);}
+    50% {transform: translateY(-10px);}
+    100% {transform: translateY(0px);}
+}
+
+/* ===============================
+   PROJECTS
+================================ */
+.projects-2{
+    text-align:center;
+    padding:40px 20px;
+    font-family:"Ubuntu", sans-serif;
+}
+
+.project-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.project-card{
+    background: var(--card-bg);
+    border-radius:15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width:300px;
+    padding:20px;
+    transition:transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.project-card img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.project-card h3{
+    color: var(--heading-color);
+    font-size:25px;
+    font-family:"Ubuntu", sans-serif;
+    font-weight:bold;
+}
+
+.project-card p{
+    color: var(--para-color);
+    font-size:0.95rem;
+    margin-bottom:15px;
+}
+
+.project-card a{
+    text-decoration:none;
+    color:#fff;
+    background-color:#007bff;
+    padding:8px 15px;
+    border-radius: 5px;
+    display:inline-block;
+    transition:background 0.3s ease;
+}
+
+.project-card a:hover{
+    background:#0056b3;
+}
+
+/* ===============================
+   NAVBAR
+================================ */
+.navbar-brand{
+    padding-left:20px;
+}
+
+/* ===============================
+   CONTACT
+================================ */
+#contactme{
+    text-align:center;
+    padding:30px;
+}
+
+.contact-design{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:60px;
+}
+
+#contactme div{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+}
+
+#contactme a{
+    color:#0077b6;
+    text-decoration:none;
+    font-weight:bold;
+    margin-right:25px;
+}
+
+#contactme a:hover{
+    text-decoration:underline;
+}
+
+#contactme i{
+    font-size:1.2rem;
+    color: var(--icon-color);
+}
+
+/* ===============================
+   CERTIFICATIONS
+================================ */
+#certifications{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.diff-cert{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+}
+
+.cert{
+    width:300px;
+    background: var(--card-bg);
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    border-radius:15px;
+    padding:25px 20px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.cert:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.cert h3{
+    font-size:15px;
+    color: var(--text-color);
+    margin-bottom:10px;
+}
+
+.cert p{
+    font-size:0.95rem;
+    color: var(--para-color);
+    margin-bottom:15px;
+    line-height:1.4;
+}
+
+.cert-btn{
+    display:inline-block;
+    background-color:#007bff;
+    color:#fff;
+    padding:8px 15px;
+    border-radius:8px;
+    font-size:0.9rem;
+    text-decoration:none;
+    transition: background 0.3s;
+}
+
+.cert-btn:hover{
+    background-color:#0056b3;
+}
+
+/* ===============================
+   RESPONSIVE
+================================ */
+@media (max-width: 576px){
+    .project-card,
+    .cert{
+        width: 90%;
+    }
+
+    .skill-box{
+        width: 120px;
+        height: 120px;
+        font-size: 1rem;
+    }
+
+    .contact-design{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .image-mine{
+        width: 180px;
+        height: 180px;
+    }
+
+    .aboutme,
+    .intro{
+        text-align: center;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 992px){
+    .project-card,
+    .cert{
+        width: 45%;
+    }
+
+    .skill-box{
+        width: 140px;
+        height: 140px;
+    }
+}
+
+@media (min-width: 993px){
+    .project-card,
+    .cert{
+        width: 300px;
+    }
+}
+
+/* ===============================
+   EXTRA
+================================ */
+.aandc{
+    font-family:"Ubuntu", sans-serif;
+}
+.theme-toggle{
+    background: none;
+    border: 2px solid currentColor;
+    padding: 6px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.theme-toggle:hover{
+    background-color: rgba(0,0,0,0.1);
+}
