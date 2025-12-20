@@ -107,7 +107,7 @@ main{
     justify-content:center;
     font-size:1.2rem;
     font-weight:600;
-    color:white;
+    color:black;
     animation:float 3s ease-in-out infinite;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -146,6 +146,7 @@ main{
     width:300px;
     padding:20px;
     transition:transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom:20px;
 }
 
 .project-card:hover{
@@ -233,9 +234,6 @@ main{
     color: var(--icon-color);
 }
 
-/* ===============================
-   CERTIFICATIONS
-================================ */
 #certifications{
     text-align:center;
     padding:40px 20px;
