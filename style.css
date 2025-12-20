@@ -287,10 +287,6 @@ main{
 .cert-btn:hover{
     background-color:#0056b3;
 }
-
-/* ===============================
-   RESPONSIVE
-================================ */
 @media (max-width: 576px){
     .project-card,
     .cert{
@@ -335,12 +331,14 @@ main{
     .project-card,
     .cert{
         width: 300px;
+        margin-right: 20px;
+    }
+    .project-description{
+        display: flex;
+        flex-direction: row;
     }
 }
 
-/* ===============================
-   EXTRA
-================================ */
 .aandc{
     font-family:"Ubuntu", sans-serif;
 }
