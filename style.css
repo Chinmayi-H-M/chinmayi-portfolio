@@ -1,8 +1,5 @@
-/* ===============================
-   THEME VARIABLES
-================================ */
+
 :root {
-    /* Light Theme */
     --bg-color: #ffffff;
     --text-color: #000000;
     --heading-color: #2A7B9B;
@@ -243,7 +240,7 @@ main{
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
-    gap:25px;
+    gap:20px;
 }
 
 .cert{
@@ -356,3 +353,13 @@ main{
 .theme-toggle:hover{
     background-color: rgba(0,0,0,0.1);
 }
+.navbar {
+    background-color: var(--card-bg) !important;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a,
+.navbar-brand {
+    color: var(--text-color) !important;
+}
+

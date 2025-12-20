@@ -1,6 +1,6 @@
 const toggleBtn = document.getElementById("themeToggle");
 
-// Load saved theme on page load
+
 if (localStorage.getItem("theme") === "dark") {
     document.body.classList.add("dark");
     toggleBtn.textContent = "☀️ Light";
