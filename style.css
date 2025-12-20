@@ -5,36 +5,28 @@
     --heading-color: #2A7B9B;
     --card-bg: #ffffff;
     --para-color: #666;
-    --icon-color: #333;
+    --icon-color: pink;
 }
 
 body.dark {
     /* Dark Theme */
     --bg-color: #0f172a;
-    --text-color: #e5e7eb;
+    --text-color: blue;
     --heading-color: #38bdf8;
     --card-bg: #1e293b;
-    --para-color: #cbd5f5;
-    --icon-color: #e5e7eb;
+    --para-color: orange;
+    --icon-color: white;
 }
-
-/* ===============================
-   GLOBAL
-================================ */
 body{
     background-color: var(--bg-color);
     color: var(--text-color);
     transition: background-color 0.3s ease, color 0.3s ease;
-    padding:70px;
+}
+main {
+    padding: 70px 20px;
 }
 
-main{
-    padding:10px;
-}
 
-/* ===============================
-   PROFILE IMAGE
-================================ */
 .image-mine{
     border-radius:50%;
     width:250px;
@@ -43,10 +35,6 @@ main{
     border:3px;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
-
-/* ===============================
-   TYPING EFFECT
-================================ */
 .typing{
     color: var(--text-color);
     font-size: 18px;
@@ -69,9 +57,6 @@ main{
     50%{border-color: transparent}
 }
 
-/* ===============================
-   HEADINGS
-================================ */
 .aboutme,
 .skill-list{
     font-family:"Ubuntu", sans-serif;
@@ -85,9 +70,6 @@ main{
     padding:60px 20px 0px 20px;
 }
 
-/* ===============================
-   SKILLS
-================================ */
 .skills-container{
     display:flex;
     justify-content:center;
@@ -120,9 +102,6 @@ main{
     100% {transform: translateY(0px);}
 }
 
-/* ===============================
-   PROJECTS
-================================ */
 .projects-2{
     text-align:center;
     padding:40px 20px;
@@ -186,16 +165,10 @@ main{
     background:#0056b3;
 }
 
-/* ===============================
-   NAVBAR
-================================ */
 .navbar-brand{
     padding-left:20px;
 }
 
-/* ===============================
-   CONTACT
-================================ */
 #contactme{
     text-align:center;
     padding:30px;
@@ -362,4 +335,11 @@ main{
 .navbar-brand {
     color: var(--text-color) !important;
 }
+.container,
+.container-fluid,
+main,
+section {
+    background-color: var(--bg-color);
+}
+
 
