@@ -5,7 +5,7 @@
     --card-bg: #ffffff;
     --icon-color: #111111;
 
-    --toggle-bg: #111111;      /* 🔥 */
+    --toggle-bg: #111111;      
     --toggle-text: #ffffff;
 }
 
@@ -15,7 +15,7 @@ body.dark {
     --heading-color: #38bdf8;
     --card-bg: #1e293b;
     --icon-color: #e5e7eb;
-    --toggle-bg: #e5e7eb;     /* 🔥 */
+    --toggle-bg: #e5e7eb;     
     --toggle-text: #0f172a;
 }
 body {
@@ -66,8 +66,7 @@ main {
 .skill-list,
 .projects-2,
 .aandc,
-.contact-me,
-.contact-mep
+.contact-me
 {
     font-family:"Ubuntu", sans-serif;
     font-size:30px;
@@ -102,7 +101,7 @@ main {
     justify-content:center;
     font-size:1.2rem;
     font-weight:600;
-    color:black;
+    color:var(--text-color);
     animation:float 3s ease-in-out infinite;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -155,8 +154,8 @@ main {
 }
 
 .project-card h3{
-    color: var(--heading-color);
-    font-size:25px;
+    color: var(--text-color);
+    font-size:20px;
     font-family:"Ubuntu", sans-serif;
     font-weight:bold;
 }
@@ -368,6 +367,10 @@ section {
 }
 .name{
     color: var(--text-color);
+}
+
+.contact-mep{
+    color:var(--text-color);
 }
 
 
