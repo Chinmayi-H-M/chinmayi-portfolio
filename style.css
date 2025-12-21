@@ -93,7 +93,6 @@ main {
     font-weight:600;
     color:black;
     animation:float 3s ease-in-out infinite;
-
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -352,7 +351,10 @@ section {
     background-color: var(--bg-color);
 }
 .intro{
-    color: red;
+    color: var(--text-color);
+}
+.name{
+    color: var(--text-color);
 }
 
 
