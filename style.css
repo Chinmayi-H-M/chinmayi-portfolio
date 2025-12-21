@@ -323,6 +323,7 @@ main {
     .project-card,
     .cert{
         width: 45%;
+        margin:auto;
     }
 
     .skill-box{
@@ -338,7 +339,7 @@ main {
     .project-card,
     .cert{
         width: 300px;
-        margin-right: 20px;
+        margin-right: auto;
     }
     .project-description{
         display: flex;
@@ -373,6 +374,10 @@ main {
 .navbar a,
 .navbar-brand {
     color: var(--text-color) !important;
+}
+.container{
+  margin-left: auto;
+  margin-right: auto;
 }
 .container,
 .container-fluid,
