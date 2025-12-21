@@ -15,7 +15,7 @@ body.dark {
 }
 body {
     background-color: var(--bg-color);
-    color: var(--text-color);   /* 🔥 CHANGE THIS */
+    color: var(--text-color);   
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -93,6 +93,7 @@ main {
     font-weight:600;
     color:black;
     animation:float 3s ease-in-out infinite;
+
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -349,6 +350,9 @@ main {
 main,
 section {
     background-color: var(--bg-color);
+}
+.intro{
+    color: red;
 }
 
 
