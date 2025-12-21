@@ -1,27 +1,24 @@
-
 :root {
     --bg-color: #ffffff;
-    --text-color: #000000;
+    --text-color: #111111;
     --heading-color: #2A7B9B;
     --card-bg: #ffffff;
-    --para-color:pink;
-    --icon-color: white;
+    --icon-color: #111111;
 }
 
 body.dark {
-    /* Dark Theme */
     --bg-color: #0f172a;
-    --text-color: blue;
+    --text-color: #e5e7eb;
     --heading-color: #38bdf8;
     --card-bg: #1e293b;
-    --para-color: orange;
-    --icon-color: white;
+    --icon-color: #e5e7eb;
 }
-body{
+body {
     background-color: var(--bg-color);
-    color: var(--para-color);
+    color: var(--text-color);   /* 🔥 CHANGE THIS */
     transition: background-color 0.3s ease, color 0.3s ease;
 }
+
 main {
     padding: 70px 20px;
 }
@@ -76,6 +73,11 @@ main {
     flex-wrap:wrap;
     gap:25px;
 }
+.navbar a,
+.navbar-brand {
+    color: var(--text-color) !important;
+}
+
 
 .skill-box{
     width:150px;
@@ -146,7 +148,7 @@ main {
 }
 
 .project-card p{
-    color: var(--para-color);
+    color: var(--text-color);
     font-size:0.95rem;
     margin-bottom:15px;
 }
@@ -238,7 +240,7 @@ main {
 
 .cert p{
     font-size:0.95rem;
-    color: var(--para-color);
+    color: var(--text-color);
     margin-bottom:15px;
     line-height:1.4;
 }
