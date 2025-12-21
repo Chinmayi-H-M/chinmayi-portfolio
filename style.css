@@ -4,6 +4,9 @@
     --heading-color: #2A7B9B;
     --card-bg: #ffffff;
     --icon-color: #111111;
+
+    --toggle-bg: #111111;      /* 🔥 */
+    --toggle-text: #ffffff;
 }
 
 body.dark {
@@ -12,6 +15,8 @@ body.dark {
     --heading-color: #38bdf8;
     --card-bg: #1e293b;
     --icon-color: #e5e7eb;
+    --toggle-bg: #e5e7eb;     /* 🔥 */
+    --toggle-text: #0f172a;
 }
 body {
     background-color: var(--bg-color);
@@ -85,6 +90,7 @@ main {
 .navbar-brand {
     color: var(--text-color) !important;
 }
+
 
 
 .skill-box{
@@ -327,7 +333,8 @@ main {
     font-family:"Ubuntu", sans-serif;
 }
 .theme-toggle{
-    background: none;
+    background-color: var(--toggle-bg);
+    color: var(--toggle-text);
     border: 2px solid currentColor;
     padding: 6px 14px;
     border-radius: 20px;
@@ -335,11 +342,12 @@ main {
     font-size: 14px;
     font-weight: 600;
     transition: all 0.3s ease;
+    margin-right:10px;
 }
 
-.theme-toggle:hover{
+/* .theme-toggle:hover{
     background-color: rgba(0,0,0,0.1);
-}
+} */
 .navbar {
     background-color: var(--card-bg) !important;
     transition: background-color 0.3s ease;
