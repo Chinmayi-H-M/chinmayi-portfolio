@@ -4,8 +4,8 @@
     --text-color: #000000;
     --heading-color: #2A7B9B;
     --card-bg: #ffffff;
-    --para-color: #666;
-    --icon-color: pink;
+    --para-color:pink;
+    --icon-color: white;
 }
 
 body.dark {
@@ -19,7 +19,7 @@ body.dark {
 }
 body{
     background-color: var(--bg-color);
-    color: var(--text-color);
+    color: var(--para-color);
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 main {
@@ -281,7 +281,8 @@ main {
 
     .aboutme,
     .intro{
-        text-align: center;
+        text-align: center; 
+        color:var(--para-color);
     }
 }
 
