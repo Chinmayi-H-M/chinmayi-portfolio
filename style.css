@@ -58,7 +58,12 @@ main {
 }
 
 .aboutme,
-.skill-list{
+.skill-list,
+.projects-2,
+.aandc,
+.contact-me,
+.contact-mep
+{
     font-family:"Ubuntu", sans-serif;
     font-size:30px;
     color: var(--heading-color);
