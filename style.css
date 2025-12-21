@@ -22,6 +22,9 @@ body {
 main {
     padding: 70px 20px;
 }
+.navbar-toggler-icon {
+    filter: invert(1);
+}
 
 
 .image-mine{
@@ -284,7 +287,7 @@ main {
     .aboutme,
     .intro{
         text-align: center; 
-        color:var(--para-color);
+        color:var(--text-color);
     }
 }
 
@@ -297,6 +300,9 @@ main {
     .skill-box{
         width: 140px;
         height: 140px;
+        color: var(--text-color);
+        background: var(--card-bg);
+
     }
 }
 
