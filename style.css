@@ -303,7 +303,7 @@ main {
     }
 
     .contact-design{
-        flex-direction: column;
+        flex-direction: row;
         gap: 20px;
     }
 
@@ -339,6 +339,11 @@ main {
     flex-wrap: wrap;
     justify-content: center;   /* ✅ centers cards */
     gap: 24px;
+}
+.project-card {
+    width: 100%;
+    max-width: 400px;          /* ✅ controls card width */
+    margin: 0 auto;            /* ✅ extra safety */
 }
 
 @media (min-width: 993px){
