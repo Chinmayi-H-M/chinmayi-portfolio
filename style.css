@@ -344,6 +344,8 @@ main {
     .project-description{
         display: flex;
         flex-direction: row;
+        justify-content: center;   /* ✅ centers cards */
+    gap: 24px;
     }
 }
 
