@@ -334,6 +334,12 @@ main {
 
     }
 }
+.project-description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   /* ✅ centers cards */
+    gap: 24px;
+}
 
 @media (min-width: 993px){
     .project-card,
