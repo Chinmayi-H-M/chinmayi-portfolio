@@ -255,7 +255,7 @@ body.dark .skill-box img {
 
 #certifications{
     text-align:center;
-    padding:40px 20px 5px 20px;
+    padding:40px 20px 0px 20px;
 }
 
 .diff-cert{
@@ -378,6 +378,11 @@ body.dark .skill-box img {
 
 .aandc{
     font-family:"Ubuntu", sans-serif;
+}
+#certifications{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
 }
 .theme-toggle{
     background-color: var(--toggle-bg);
