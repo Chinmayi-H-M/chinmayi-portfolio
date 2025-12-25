@@ -108,11 +108,19 @@ main {
     flex-direction: column;
     align-items:center;
     justify-content:center;
+    background: var(--card-bg);
     font-size:1.2rem;
     font-weight:600;
     color:var(--text-color);
     animation:float 3s ease-in-out infinite;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.skills-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+    padding:20px 30pz;
 }
 
 .skill-box:hover{
@@ -416,5 +424,13 @@ section {
 .contact-mep{
     color:var(--text-color);
 }
+.skills-subtitle{
+    color: var(--text-color);
+    font-size:20px;
+    font-family:"Ubuntu", sans-serif;
+    font-weight:bold;
+    text-align:center;
+    margin:30px;
 
+}
 
