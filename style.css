@@ -372,7 +372,7 @@ body.dark .skill-box img {
         display: flex;
         flex-direction: row;
         justify-content: center;   /* ✅ centers cards */
-    gap: 24px;
+    gap: 12px;
     }
 }
 
@@ -438,10 +438,6 @@ section {
     margin:30px;
 
 }
-/* =======================
-   SERVICES SECTION FIX
-   ======================= */
-
 .services {
     padding: 60px 20px 40px;
     background-color: var(--bg-color);
