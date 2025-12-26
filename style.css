@@ -438,6 +438,72 @@ section {
     margin:30px;
 
 }
+/* =======================
+   SERVICES SECTION FIX
+   ======================= */
+
+.services {
+    padding: 60px 20px 40px;
+    background-color: var(--bg-color);
+    text-align: center;
+}
+
+/* Cards layout */
+.services-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+/* Service card */
+.service-card {
+    width: 300px;
+    background-color: var(--card-bg);
+    color: var(--text-color);
+    border-radius: 20px;
+    padding: 25px 20px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+body:not(.dark) .service-card {
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/* Hover effect */
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.35);
+}
+
+/* Icon */
+.service-card img {
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 15px;
+}
+
+/* Title */
+.service-card h3 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--heading-color);
+    margin-bottom: 10px;
+}
+
+/* Description */
+.service-card p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--text-color);
+    opacity: 0.9;
+}
+
+/* CTA Button */
 .service-cta {
     margin-top: 35px;
     text-align: center;
@@ -445,10 +511,10 @@ section {
 
 .service-btn {
     display: inline-block;
-    padding: 12px 26px;
+    padding: 12px 28px;
     background-color: #007bff;
-    color: #fff;
-    border-radius: 25px;
+    color: #ffffff;
+    border-radius: 30px;
     font-size: 15px;
     font-weight: 600;
     text-decoration: none;
@@ -459,6 +525,7 @@ section {
     background-color: #0056b3;
     transform: translateY(-2px);
 }
+
 html {
     scroll-behavior: smooth;
 }
