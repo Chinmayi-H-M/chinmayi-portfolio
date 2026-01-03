@@ -327,11 +327,7 @@ body.dark .skill-box img {
         width: 180px;
         height: 180px;
     }
-    .intro{
-        text-align: center; 
-        color:var(--text-color);
-    }
-}
+    
 
 @media (min-width: 577px) and (max-width: 992px){
     .project-card,
