@@ -336,7 +336,7 @@ body.dark .skill-box img {
 @media (min-width: 577px) and (max-width: 992px){
     .project-card,
     .cert{
-        width: 55%;
+        width: 45%;
         margin:auto;
     }
 
