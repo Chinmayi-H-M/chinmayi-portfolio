@@ -327,8 +327,6 @@ body.dark .skill-box img {
         width: 180px;
         height: 180px;
     }
-
-    .aboutme,
     .intro{
         text-align: center; 
         color:var(--text-color);
