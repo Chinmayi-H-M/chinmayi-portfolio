@@ -351,13 +351,13 @@ body.dark .skill-box img {
 .project-description {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;   /* ✅ centers cards */
+    justify-content: center;
     gap: 24px;
 }
 .project-card {
     width: 100%;
-    max-width: 400px;          /* ✅ controls card width */
-    margin: 0 auto;            /* ✅ extra safety */
+    max-width: 400px;        
+    margin: 0 auto;          
 }
 
 @media (min-width: 993px){
