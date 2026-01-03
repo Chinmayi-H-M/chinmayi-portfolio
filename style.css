@@ -373,7 +373,9 @@ body.dark .skill-box img {
     gap: 12px;
     }
 }
-
+.aandc{
+    font-family:"Ubuntu", sans-serif;
+}
 
 #certifications{
     margin-bottom: 0px;
