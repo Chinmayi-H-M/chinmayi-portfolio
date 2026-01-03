@@ -369,7 +369,7 @@ body.dark .skill-box img {
     .project-description{
         display: flex;
         flex-direction: row;
-        justify-content: center;   /* ✅ centers cards */
+        justify-content: center;   
     gap: 12px;
     }
 }
